@@ -5,7 +5,7 @@ var findPairs = function(num, k){
         hash[n] ? hash[n] += 1 : hash[n] = 1
     });
 
-    let numUniques = new Set(nums)
+    let numUnique = new Set(nums)
     
     let counter = 0
     numsUnique.ForEach(n=>{
