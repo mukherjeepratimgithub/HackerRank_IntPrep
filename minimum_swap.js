@@ -40,4 +40,8 @@ function minSwaps(arr,N)
         return -1;
     }
      
-  
+    // Driver class
+    let a=[101, 758, 315, 730, 472,
+        619, 460, 479 ];
+let n = a.length;
+document.write(minSwaps(a, n));
